@@ -65,6 +65,8 @@
 .banner-info h1 {
   font-weight: 700;
   font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .banner-info p {
@@ -164,3 +166,89 @@
 }
 
 /* Latest Deals Section */
+.latest-deals-section {
+  margin-top: 120px;
+}
+.latest-deals-section > h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+.latest-deals-section > p {
+  text-align: center;
+  padding: 0 4rem;
+}
+
+.latest-deals {
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+.latest-deals-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.latest-deals-container {
+  background-position: center;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.latest-deals-image1 {
+  background: url(images/latest1.jpeg);
+  background-size: cover;
+}
+.latest-deals-image2 {
+  background: url(images/latest2.jpeg);
+  background-size: cover;
+}
+
+.latest-deals-right {
+  flex: 2;
+  background: url(images/latest3.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 440px;
+  border-radius: 10px;
+}
+.latest-deals-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.left-plant {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 0;
+}
+.right-plant {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 0;
+}
+
+.shop-now-btn {
+  font-weight: 600;
+  color: #fff;
+}
+.right-shop-now-btn {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+}
