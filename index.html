@@ -4,7 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Shop</title>
+    <!-- font awesome icon -->
+    <script
+      src="https://kit.fontawesome.com/375829c6c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Noto+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header section -->
+    <header class="max-width">
+      <!-- nav section -->
+      <div class="navbar">
+        <div class="navbar-logo">
+          <img src="/images/logo.jpeg" alt="" />
+        </div>
+        <div class="navbar-info">
+          <nav>
+            <ul class="nav-list inter-text">
+              <li class="all-list active">Home</li>
+              <li class="all-list">Shop</li>
+              <li class="all-list">About Us</li>
+              <li class="all-list active">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart($56)
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- banner section -->
+      <div class="banner">
+        <div class="banner-info">
+          <h1 class="noto-serif-heading">
+            Always
+            <span class="primary-text">Fresh Flowers</span>
+          </h1>
+          <p class="inter-text text-color">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div class="banner-image">
+          <img src="images/banner.jpeg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- Our Plants Section -->
+    <section class="max-width">
+      <div class="our-plants-info">
+        <h1 class="noto-serif-heading">
+          <span class="primary-text">Our</span> Plants
+        </h1>
+        <p class="inter-text text-color">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh.
+        </p>
+      </div>
+      <div class="our-plants">
+        <div class="our-plants-card">
+          <div>
+            <img src="/images/plants.jpeg" alt="" />
+          </div>
+          <div>
+            <h4>Lily Blossom</h4>
+            <p>20 USD</p>
+          </div>
+          <div>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
