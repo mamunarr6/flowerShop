@@ -3,6 +3,10 @@
   --seconday-color: #000000;
   --text-color: rgba(0, 0, 0, 0.5);
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 .noto-serif-heading {
   font-family: "Noto Serif", serif;
 }
@@ -207,28 +211,28 @@
 }
 
 .latest-deals-right {
-  flex: 2;
   background: url(images/latest3.jpeg);
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
+  flex: 2;
   height: 100%;
   min-height: 440px;
   border-radius: 10px;
 }
 .latest-deals-content {
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   height: 100%;
   width: 100%;
+  background: rgba(0, 0, 0, 0.4);
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
@@ -250,5 +254,48 @@
 .right-shop-now-btn {
   font-size: 1.7rem;
   font-weight: 600;
+  color: #fff;
+}
+
+/* Subscription Section */
+.join-us-section {
+  margin-top: 120px;
+  background: url(images/subscribe.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-height: 530px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us-content h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.join-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.join-us-input {
+  width: 640px;
+  padding: 15px 20px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+.join-us-btn {
+  padding: 15px 40px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  font-size: 1rem;
+  background-color: var(--primary-color);
   color: #fff;
 }
