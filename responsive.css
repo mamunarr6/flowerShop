@@ -1,0 +1,129 @@
+@media only screen and (max-width: 768px) {
+  .max-width {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .all-list {
+    display: none;
+  }
+  .navbar-logo {
+    flex: 2;
+  }
+  .cart {
+    margin-right: 0;
+    margin-top: 25px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .banner-info h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .banner-info p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* Our Plants Section */
+  .our-plants-section {
+    margin-top: 50px;
+  }
+  .our-plants-info h1 {
+    font-size: 2rem;
+  }
+  .our-plants-info p {
+    font-size: 1.2rem;
+  }
+  .our-plants {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .our-plants-card img {
+    width: 100%;
+  }
+
+  .card-button {
+    width: 100%;
+    padding: 6px 15px;
+  }
+
+  /* Flower and Plants Lover */
+
+  .plants-lover {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .trusted {
+    display: none;
+  }
+  .plants-lover-info h2 {
+    font-size: 2rem;
+  }
+
+  .plants-lover-info-list li {
+    font-size: 1.2rem;
+  }
+
+  /* Latest Deals Section */
+  .latest-deals-section h2 {
+    font-size: 2rem;
+  }
+  .latest-deals-section p {
+    font-size: 1.2rem;
+  }
+  .latest-deals {
+    display: block;
+    width: 100%;
+  }
+  .latest-deals-right {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 210px;
+  }
+  .right-plant {
+    font-size: 1.2rem;
+  }
+  .right-shop-now-btn {
+    font-size: 1rem;
+  }
+
+  /* Subscription Section */
+  .join-us-section {
+    width: 100%;
+    min-height: 210px;
+  }
+  .join-us-content h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .join-us-input {
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .join-us-btn {
+    padding: 10px 15px;
+  }
+
+  /* Footer Section */
+  .footer-section {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .footer-logo-text {
+    padding-right: 10%;
+    font-size: 1rem;
+  }
+  .footer-social-access {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
