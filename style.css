@@ -118,9 +118,9 @@
   line-height: 150%;
   margin-bottom: 30px;
 }
-.card-button {
+/* .card-button {
   width: full;
-}
+} */
 .card-button button {
   background-color: var(--primary-color);
   color: #fff;
@@ -130,3 +130,37 @@
 }
 
 /* Flower and Plants Lover */
+.plants-lover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 150px;
+}
+
+.plants-lover-image {
+  position: relative;
+  display: inline-block;
+}
+.seller {
+  display: block;
+}
+.trusted {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 250px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
+}
+.plants-lover-info h2 {
+  font-size: 3rem;
+}
+
+.plants-lover-info-list li {
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Latest Deals Section */
